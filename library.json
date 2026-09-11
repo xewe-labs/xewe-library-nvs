@@ -1,0 +1,40 @@
+{
+  "name": "XeWeNvs",
+  "version": "0.1.0",
+  "description": "Typed key-value storage on ESP32 NVS, including whole structs persisted via FlexData.",
+  "keywords": [
+    "data-storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xewe-labs/xewe-library-nvs.git"
+  },
+  "authors": [
+    {
+      "name": "Maxim Dokukin",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/xewe-labs/xewe-library-nvs",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32"
+  ],
+  "headers": [
+    "XeWeNvs.h"
+  ],
+  "dependencies": [
+    {
+      "owner": "bblanchon",
+      "name": "ArduinoJson",
+      "version": ">=7.0.0"
+    }
+  ],
+  "export": {
+    "exclude": [
+      ".github",
+      "extras/test"
+    ]
+  }
+}
